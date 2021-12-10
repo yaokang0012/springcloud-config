@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
+    driver-class-name: org.mariadb.jdbc.Driver              # mysql驱动包
+    url: jdbc:mariadb://127.0.0.1:3306/spring-cloud2021     # ?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
